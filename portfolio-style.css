@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+    /*overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #ff7e5f, #feb47b, #ff7e5f);
+    background-size: 600% 600%;
+    animation: gradientMotion 10s ease infinite;*/
+
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   /* background-color: #f4f4f4;*/
+    background: url(bg004.jpg) no-repeat; /*linear-gradient(270deg, #76c0e2, #81a4bb, #afd0d6);*/
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    margin-top: 20px;
+    background-color: #49403bb7;
+    color: rgb(17, 14, 14);
+    padding: 20px;
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 10px;
+}
+
+.sidebar a {
+    color: #0a0a09b7;
+    text-decoration: none;
+    display: initial;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+    line-height:250%;
+}
+
+.content {
+    margin: 10px;
+    background-color: #49403bb7;
+    padding: 30px;
+    width: 70%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.content h1 {
+    margin-top: 0;
+}
+
+.content h2 {
+    color: #070c0f;
+    margin-top: 20px;
+}
+
+.education h2 {
+    color: #070c0f;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.job, .education-entry {
+    margin-bottom: 20px;
+}
+
+.job h3, .education-entry h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.job p, .education-entry p {
+    margin: 10px 0;
+}
